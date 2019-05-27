@@ -1,0 +1,8 @@
+[console_scripts]
+pykeen = pykeen.cli:main
+pykeen-predict = pykeen.cli.cli:predict
+pykeen-summarize = pykeen.cli.cli:summarize
+
+[pykeen.data.importer]
+ndex = pykeen.utilities.handlers:handle_ndex
+
